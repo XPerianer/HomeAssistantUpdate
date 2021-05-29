@@ -1,15 +1,12 @@
-# Weather-Logger
-Logs the weather data of my room with my omega2, ubidots and dht-11 sensor
+# Home Assistant Update
+Logs the weather data of my room with my omega2, dht-11 sensor, and sends it via http-request to the home assistant platforrm
 
 # Requirements:
 + dht-sensor software is installed
 + python is installed with *request-package* available
 
 # Installation:
-Create config.py with *apitoken = "YOUR-API-TOKEN"* inside.
+Create config.py with your Beacon inside.
 
 Put in your crontab file to run as often as you like.
-
-Also, you have to make an account at ubidots, and create a device omega2 for it to work.
-
 
